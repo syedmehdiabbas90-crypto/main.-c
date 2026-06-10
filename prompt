@@ -1,0 +1,87 @@
+1. Prompt:
+
+What is the purpose of this project?
+
+Response:
+This project is basically a simple 2D graphics editor made using C programming. It lets us draw shapes like line, rectangle, triangle and circle on a text-based canvas using symbols. We can also delete, modify and display the shapes.
+
+⸻
+
+2. Prompt:
+
+How are shapes stored in this program?
+
+Response:
+All shapes are stored in an array of structures. Each object has an ID, type, and its coordinates like x, y, width, height or radius depending on the shape.
+
+⸻
+
+3. Prompt:
+
+How does the canvas work in this program?
+
+Response:
+The canvas is a 2D character array. It is filled with underscores initially, and when we draw shapes, specific positions are replaced with ‘*’ to show the drawing.
+
+⸻
+
+4. Prompt:
+
+How is a line drawn in this program?
+
+Response:
+A line is drawn either horizontally or vertically. If y coordinates are same, it draws a horizontal line. If x coordinates are same, it draws a vertical line using loops.
+
+⸻
+
+5. Prompt:
+
+How does the rectangle function work?
+
+Response:
+The rectangle function uses nested loops. It fills a block area in the canvas based on starting x, y position and the given width and height.
+
+⸻
+
+6. Prompt:
+
+How is a circle represented in this project?
+
+Response:
+A circle is drawn using the equation of distance. If the distance from the center is less than or equal to the radius, that point is marked with ‘*’.
+
+⸻
+
+7. Prompt:
+
+What is the use of redrawAll() function?
+
+Response:
+This function clears the canvas and redraws all objects again from the object list. It is used after adding, deleting or modifying shapes.
+
+⸻
+
+8. Prompt:
+
+How does object deletion work?
+
+Response:
+When we enter an ID, the program searches the object array. If found, it removes that object and shifts remaining objects to fill the gap.
+
+⸻
+
+9. Prompt:
+
+How does modification of objects happen?
+
+Response:
+The program first finds the object by ID, then asks for new values depending on the shape type and updates it in the array, then redraws everything.
+
+⸻
+
+10. Prompt:
+
+What is the main learning from this project?
+
+Response:
+This project helped me understand structures, arrays, loops, and functions in C. It also improved my understanding of how basic graphics logic works using simple characters.
